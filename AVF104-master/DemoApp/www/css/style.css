@@ -1,0 +1,156 @@
+body {
+background-image: url("../img/hexabump.png");
+ }
+
+ul {
+  list-style-type:none;
+  padding-left: 0px; 
+  padding-right:0px; 
+  margin-left:0px; 
+  margin-right:0px; 
+  text-align:center;
+  margin: 2px;
+  background-color: #000000;
+}
+
+li {
+  //list-style-type: none;
+  //padding-left: 0px; 
+  //padding-right:0px; 
+  //margin-left:0px; 
+  //margin-right:0px; 
+  text-align:center;
+  vertical-align: middle;
+  //padding: 2px;
+  background-color: #FFFFFF;
+  
+  }
+
+header {
+  text-align: center;
+  background: #FFFFFF;
+  color: #555555;
+  padding: 5px;
+  margin-top: 25px;
+}
+
+
+.nav {
+    text-align: center;
+    background: #FFFFFF;
+    color: #555555;
+    padding: 5px;
+}
+
+button {
+  text-align: center;
+  background: #FFFFFF;
+  color: #000000;
+  padding: 5px;
+}
+
+.input {
+  background: #FFFFFF;
+}
+
+h2 {
+  text-align: center;
+  color: #EEEEEE;
+}
+
+.native {
+  background: #FFFFFF;
+  list-style-position: inside;
+  border-bottom:1px solid #111111;
+  vertical-align: middle;
+}
+
+.dataAPI {
+  background: #FFFFFF;
+  list-style-position: inside;
+  border-bottom:1px solid #111111;
+  vertical-align: middle;
+
+}
+
+.research {
+  background: #FFFFFF;
+  list-style-position: inside;
+  border-bottom:1px solid #111111;
+  vertical-align: middle;
+
+}
+
+#temper {
+  font-size: 200%;
+}
+
+.instaList {
+  display: inline-block;
+  position:relative;
+  float: center;
+  width: 175px;
+  height: 175px;
+  margin: 10px;
+  padding: 20px;
+  background:#EEEEEE; 
+
+}
+
+.instaIMG { 
+position:relative; 
+display: block;
+float:left; 
+width:150px;
+height:150px;
+background:#ccc; 
+margin:10px;
+
+}
+
+#weatherInfo {
+  margin: 25px;
+  padding:15px;
+  background: #222222;
+}
+
+
+.twoRow {
+  height: 45px;
+}
+
+p {
+  color: #FFFFFF;
+}
+
+a:link {
+  text-decoration: none;
+  color: #000000;
+}
+
+
+
+@media all and (min-width: 750px){
+
+  .left {
+    width: 50%;
+    float:left;
+  }
+  .right {
+    width: 50%;
+    float:right;
+    } 
+
+}
+
+
+@media all and (min-width: 1200px){
+
+  .left {
+    width: 40%;
+    }
+  .right {
+    width: 40%;
+    
+  }
+}

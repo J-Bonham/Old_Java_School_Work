@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pixar Movies</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="options">
+        <item>Toy Story</item>
+        <item>A Bug\'s Life</item>
+        <item>Toy Story 2</item>
+        <item>Monsters, Inc.</item>
+        <item>Finding Nemo</item>
+        <item>The Incredibles</item>
+        <item>Cars</item>
+        <item>Ratatouille</item>
+        <item>WALL-E</item>
+        <item>Up</item>
+        <item>Toy Story 3</item>
+        <item>Cars 2</item>
+        <item>Brave</item>
+        <item>Monsters University</item>
+    </string-array>
+
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string-array name="connectivty_type">
+        <item>WiFi Connection</item>
+        <item>Mobile</item>
+        <item>Local Storage</item>
+    </string-array>
+
+    <string-array name="conectionBG">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

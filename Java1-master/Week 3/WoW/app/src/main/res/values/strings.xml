@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WoW Releases</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="gamesArray">
+        <item>Warcraft</item>
+        <item>The Burning Crusade</item>
+        <item>Wrath of the Lich King</item>
+        <item>Cataclysm</item>
+        <item>Mists of Panderia</item>
+        <item>Warlords of Dreanor</item>
+    </string-array>
+
+    <string name="nameheader">Name of Game:</string>
+    <string name="releaseheader">Released:</string>
+    <string name="lvlcapheader">Level Cap:</string>
+    <string name="featureheader">Features:</string>
+
+
+
+
+
+
+</resources>

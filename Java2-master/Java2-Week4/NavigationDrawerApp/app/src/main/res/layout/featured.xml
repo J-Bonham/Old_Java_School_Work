@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="202dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/ic_launcher"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Featured Story"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat fermentum ipsum, a imperdiet lacus tincidunt eget. Aenean sed hendrerit urna. Proin eu porttitor leo, nec tincidunt mi. Vivamus ac quam aliquam, bibendum dui ut, porttitor mauris. Sed augue dui, bibendum ac pellentesque eget, iaculis et mauris. Vivamus commodo ipsum id molestie semper. Sed accumsan ipsum a scelerisque porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris dignissim iaculis nisl, vitae convallis nisl facilisis nec. Nunc vel magna non urna suscipit maximus ac nec lorem. Fusce vulputate scelerisque magna, eget tristique nisl. Praesent dictum lorem id neque consequat, sed laoreet ipsum pellentesque.  Proin maximus tristique imperdiet. Phasellus maximus ullamcorper lectus, vel rhoncus libero maximus ut. Donec vestibulum, metus eget aliquet dapibus, nisi nisl vulputate velit, eu facilisis leo nulla id augue. Maecenas convallis orci id elit rutrum tristique. Proin sollicitudin elit non placerat tempus. Cras at consectetur lectus. Nullam commodo arcu a velit auctor consequat. Mauris erat erat, tincidunt a nunc ut, efficitur semper lacus. Sed nec ex in augue auctor egestas. Suspendisse venenatis, turpis vitae hendrerit malesuada, sapien ex tempor arcu, sed sollicitudin sem ipsum in felis. Cras blandit congue ipsum, ac tincidunt lorem varius non. Vestibulum sagittis dui vitae nulla consequat, a consectetur dolor ultricies. Vivamus vel sapien ac nulla tristique luctus id id justo. Praesent non tempor orci. "
+        android:id="@+id/textView2"
+        android:layout_weight="0.92" />
+
+
+</LinearLayout>

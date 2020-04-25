@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShoppingList</string>
+    <string name="action_settings">Settings</string>
+    <string name="input">Enter New Item Here</string>
+    <string name="number">Number of Items</string>
+    <string name="length">Average Length of Text</string>
+    <string name="showall">Show All Items</string>
+    <string name="save">Save Item</string>
+
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lista de Compras</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="input">Introduce Nuevo elemento Aquí</string>
+    <string name="number">Número de artículos</string>
+    <string name="length">Duración media de Texto</string>
+    <string name="showall">Mostrar Todos los Artículos</string>
+    <string name="save">Guardar artículo</string>
+
+
+</resources>

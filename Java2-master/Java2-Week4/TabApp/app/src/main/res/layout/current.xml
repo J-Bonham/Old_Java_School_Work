@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADD8E6"
+
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/city"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Chicago, IL" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:paddingTop="10dp"
+        android:text="Current Temperature"
+        android:id="@+id/txt2" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/temperature"
+        android:textSize="24dp"
+        android:text="Temperature Here"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Current Conditions"
+        android:paddingTop="10dp"
+        android:id="@+id/txt1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/condition"
+        android:textSize="24dp"
+        android:text="Condition Here"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:text="Humidity"
+        android:paddingTop="10dp"
+        android:id="@+id/txt3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/humidity"
+        android:textSize="24dp"
+        android:text="Humidity Here"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:paddingTop="10dp"
+        android:text="Wind Condition"
+        android:id="@+id/txt4" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wind"
+        android:textSize="16dp"
+        android:text="Wind Level Here"/>
+
+
+</LinearLayout>

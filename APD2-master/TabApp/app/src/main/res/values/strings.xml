@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">3D Printing Companion</string>
+
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Add Item</string>
+    <string name="title_section3">Gallery</string>
+    <string name="title_section4">Shopping List</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="materials">
+        <item>PLA</item>
+        <item>ABS</item>
+     </string-array>
+
+    <string-array name="times">
+        <item>.5 Hour</item>
+        <item>1 Hour</item>
+        <item>1.5 Hours</item>
+        <item>2 Hours</item>
+        <item>2.5 Hours</item>
+        <item>3 Hours</item>
+        <item>3.5 Hours</item>
+        <item>4 Hours</item>
+        <item>4.5 Hours</item>
+        <item>5 Hours</item>
+        <item>6 Hours</item>
+        <item>7 Hours</item>
+        <item>8+ Hours</item>
+
+    </string-array>
+
+
+</resources>

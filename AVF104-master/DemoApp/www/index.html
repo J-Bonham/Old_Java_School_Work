@@ -1,0 +1,264 @@
+<!doctype html> 
+
+<!--Jeremiah Bonham -->
+<!-- AVF 1401 -->
+
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<title>AVF 1401 Demo App</title>
+	
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="cleartype" content="on">
+	<meta name="robots" content="noindex, nofollow">
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.4.0.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    
+</head>
+<body>
+	
+	<!--Launch Page-->
+	<section data-role="page" id= "launchPage" >
+	   
+		<header data-position="fixed">
+			<h1>AVF 1401 Demo App</h1>
+		</header>
+	
+			<section id="content">
+	
+			<h2>Native Demos</h2>
+				<ul id= "native">		
+				<li>  <a href=# data-role="button" id="geo">Geo-Location</a>  </li>
+			
+				<li>  <a href=# data-role="button" id="goNotification">Notifications</a>  </li>
+				 
+				<li>  <a href=# data-role="button" id="goCompass">Compass</a>  </li>
+				
+				<li>  <a href=# data-role="button"id="goNetwork" >Network</a>  </li>
+				
+				</ul>
+		
+	
+			<section class="left">
+			<h2>API and MashUp Examples</h2>
+				<ul id= "dataAPI" >
+				<li> <a href=#insta  class="twoRow" data-role="button">Instagram</a>  </li>
+			
+				<li> <a href=#weather  class="twoRow" data-role="button">Weather</a>  </li>
+				</ul>
+			</section>
+	
+			<section class="right">
+			<h2>Research</h2>
+				<ul id= "research" >
+				<li> <a href=#week1 data-role="button">Week 1</a>  </li>
+			
+				<li> <a href=#week2 data-role="button">Week 2</a>  </li>
+				
+				<li> <a href=#week3 data-role="button">Week 3</a>  </li>
+				</ul>
+			</section>
+
+	<div class="nav" data-role="footer" data-position="fixed">
+	
+		<ul>
+		<li>App Design by Jeremiah Bonham</li>
+		</ul>
+	
+	</div>
+			</section>
+
+		</section>
+
+	<!--End of Launch Page-->
+	
+	<!--Instagram Page-->
+	<section data-role="page" id= "insta">
+
+	 	<header data-position="fixed">
+			<h1>Instagram Feed</h1>
+		</header>
+		
+
+		<div class="input" data-role="fieldcontain">
+	    <label for="enteredTag">Search Here</label>
+	    <input  type="text" name="enteredTag" id="enteredTag" value=""  />
+		</div>
+	   
+
+	    <button id="goInsta">GO</button>
+
+		<ul id="data-output">
+			<li id="data-msg" ><h2>Searching Instagram...</h2></li>
+		</ul>
+
+		<div class="nav" data-role="footer" data-position="fixed">
+		
+			<ul>
+			<li><a href="index.html">Return Home</a></li>
+			</ul>
+		
+		</div>
+
+	</section>
+	<!--End of Instagram Page-->
+
+	<!--Weather Page-->
+	<section data-role="page" id= "weather">
+
+	 	<header data-position="fixed">
+			<h1>Weather Feed</h1>
+		</header>
+
+		<div class="input" >
+	    <label for="enteredCity">Enter City Here</label>
+	    <input  type="text" name="enteredCity" id="enteredCity" value=""  />
+		</div>
+
+		<div class="input" >
+	    <label for="enteredST">Enter State Here</label>
+	    <input  type="text" name="enteredST" id="enteredST" value=""  />
+		</div>
+
+		<button id="go">Enter City</button>
+
+		<button id="getLoc">Use My Current Location</button>
+
+		<ul id="weather-output">
+			<li id="weather-msg"><h2></h2></li>
+		</ul>
+		
+     	<section id="weatherInfo">
+		<h2 id="location"> Current Weather for</h2>
+		<h2 id="temper"> Temperature: </h2>
+		<h2 id="lowHigh"> </h2>
+		<h2 id="humidity">Relative Humidity: </h2>
+		<h2 id="clouds">Percentage of Cloud Cover: </h2>
+		</section>
+	
+
+		<div class="nav" data-role="footer" data-position="fixed">
+		
+			<ul>
+			<li><a href="index.html">Return Home</a></li>
+			</ul>
+		
+		</div>
+
+	</section>
+	
+	<!--End of Weather Page-->
+
+	<!--Week 1-->
+
+	<section data-role="page" id= "week1">
+
+	 	<header data-position="fixed">
+			<h1>Week 1 Research</h1>
+		</header>
+		
+		<p>
+		1. The first part of this idea, using the live data recourse for twitter to handle logins I have seen done before.  A service such as Instagram will allow you to sign up using your Facebook or Twitter account that you are already logged into.  By using Twitter to sign into Instagram, this gives Twitter more usefulness to the user.  As far as payments, not that I think I would ever be the type to attach a money source to something like Twitter, I could see a situation where when an advertisement shows up in your twitter feed, if it was something that you were interested in purchasing, you would have the option to order it from the tweet, as well as tweet out that you have purchased said item.</p> <br>
+		<p>
+		2.	We need to use JSON-P data sources based on the way that the data is handled.  Since JSON-P works through the script side to load data for a client even if that data is not coming from the same server.</p> <br>
+		<p>
+		3.	Any map resource would pair with geo-location and compass.  Any picture manipulation application would work well with the camera.</p> <br>
+		<p>
+		4.	My plan for the demo app is to make it feel like a storm-chaser app.  I was thinking about using geo-location to pull local weather information.  I am not 100% sure what I want to do with Instagram yet, so at this point I may just have it store to local storage.</p> <br>
+		<p>
+		5.	One of the problems I used to find myself having was trying to do the design and programming portion at the same time. While it is true that I still need to consider the design portion, it is best for me to make sure what I am working on actually works before working on the design.</p> <br>
+
+		<div class="nav" data-role="footer" data-position="fixed">
+		
+			<ul>
+			<li><a href="index.html">Return Home</a></li>
+			</ul>
+		
+		</div>
+
+	</section>
+
+
+	<!--Week 2-->
+	<section data-role="page" id= "week2">
+
+	 	<header data-position="fixed">
+			<h1>Week 2 Research</h1>
+		</header>
+		
+		<p>
+		1.  I could make better use of the section tag to specify what the content of each section is instead of using multiple div tags.  Since section tags can have their own heading, it can be very easy to separate different types of content into different sections.  Also, it would be better to use em tags instead of bold tag, or using the strong tag.</p><br>
+		<p>
+		2.  Screen readers as a whole still have a very robotic sound to them.  They read the content without any understanding of what it is reading. I can see that the importance of creating content with descriptive tags around words to help break up strings of text and give some text more emphasis than others. </p><br> 
+		<p>
+		3.  The first device that I came across was the Braille Pen.  It is a device that connects to mobile phones or tablets, that allows for visually impaired people to get braille readout of what it says on the device.  It also gives the person easy control over the device.  The second device I found was the Pererro. It is used to access a device like an iPad or iPhone through the use of a switch.  This is good for people who would have a hard time interacting with elements on the screen.</p><br>
+		<p>
+		4.  The iOS app that I found interesting was AutoRingtone Pro.  It will allow someone who is visually impaired to setup the caller id on his or her iPhone to read the text of the incoming call instead of using a ringtone.  An Android app that helps with accessibility is Eyes-Free Shell.  It essentially turns an Android phone into an eyes-free communication device.  This makes it very easy to navigate for people who are visually impared.</p><br>
+
+		 
+
+		<div class="nav" data-role="footer" data-position="fixed">
+		
+			<ul>
+			<li><a href="index.html">Return Home</a></li>
+			</ul>
+		
+		</div>
+
+	</section>
+	<!--End of Week 2-->
+
+	<!--Week 3-->
+	<section data-role="page" id= "week3">
+
+	 	<header data-position="fixed">
+			<h1>Week 3 Research</h1>
+		</header>
+		
+		<p>
+		After doing a little bit of digging around on the Internet, I came across a fantastic resource that I feel that I will be utilizing much throughout my career.  I will cite it later, but it is called App Annie.  It was not surprising to see what the top selling app category for the US over the last year was games.  I was also unsurprised that this was also true of Japan.  I had never really given a thought about the UK, but I see that they are also very proficient mobile game players.  This seems to be true of all of the locations, mixed between free and paid.  There is the occasional productivity app, such as around the time that Snapchat launched, it was in the top downloads for a while.  There was also the occasional music service, such as Pandora, and most recently the Beats audio music service, but no other app type seems to appear more than games.  This tells me that most users in these three areas utilize micro-breaks for quick game play, and that the US and the UK have an unhealthy obsession with Candy Crush Saga.(www.appannie.com)
+		</p></br>
+		<p>
+		Wireless data is very, very expensive in the US.  If you look at the cost of prepaid data in the US, 500 MB can cost upwards of $80.  While in the UK, the same amount of data can cost around $20.  This specific article did not have information about Japan.  However, some of the information that I could find about Japan shows that they have a much better allotment for data.  In comparison to the 250GB data caps that we tend to have here in the US and in the UK for home internet connections, they have a much more generous allotment of 30GB per day.
+		</p></br>
+		<p>
+		The app I would suggest is a game.  A very colorful, easy to pick up and understand, and easy to play for short bursts. It would be even better if it had social aspects to lure friends into playing, creating a friendly sort of competition.  After a bit further research, I have come to find that free apps do better.  This may seem somewhat obvious, but it is deeper than the cost of entry.  Having a free app removes any sort of hesitation about downloading an app with the exception of storage space or cost of the size of data being downloaded.  This helps get a virtual foot in the door.  Once there, it is wise to avoid seeing the app as an advertisement tool. It is being discovered that mobile does not work well for advertising. If someone takes the device out to play a quick game, and half of the screen is covered by an add, or if you are forced to watch an ad in between levels of a game, it is most likely going to be deleted fairly quickly after the first few uses.  Instead, it would be wise to focus on in app purchases.  One thing that was not in the research, but I am very personally opposed to is many unneeded micro transactions within a game.  Make sure that the additional content being paid for is meaningful and people will keep coming back for more, giving you a steady stream of app revenue instead of just an initial purchase.  This also works well with the model of breaking the download into multiple parts to avoid eating through a customer’s set amount of data all at once.
+		</p></br>
+
+		<p>
+		References
+		Preimesberger, C. (2013). Mobile App Developers Should Keep Their Apps Free: 10 Reasons Why. Eweek, 12. 
+		</br>
+		Gupta, S. (2013). For Mobile Devices, Think Apps, Not Ads. (cover story). Harvard Business Review, 91(3), 70-75.
+		</br>
+		'YANG, H. (2013). BON APPÉTIT FOR APPS: YOUNG AMERICAN CONSUMERS' ACCEPTANCE OF MOBILE APPLICATIONS. Journal Of Computer Information Systems, 53(3), 85-95.
+		</br>
+		P.J.W., P.K., and D.H. [2013] When in Roam… retrieved from http://www.economist.com/blogs/graphicdetail/2013/10/daily-chart-5
+		</br>
+		Murphy, David[2011] How Bad Do We Really Have it? Bandwidth Caps Around the World retireved from http://www.maximumpc.com/article/features/how_bad_do_we_really_have_it_bandwidth_caps_around_world
+		</br>
+		App Annie IOS Matrix http://www.appannie.com/apps/ios/matrix/?device=iphone - dates used between 1-27-2013 and 1-27-2014
+		</p></br>
+
+		<div class="nav" data-role="footer" data-position="fixed">
+		
+			<ul>
+			<li><a href="index.html">Return Home</a></li>
+			</ul>
+		
+		</div>
+
+	</section>
+	<!--End of Week 3-->
+	
+	<script src="js/libs/jquery-1.10.2.min.js" type="text/javascript" ></script>
+	<script src="js/libs/jquery.mobile-1.4.0.min.js" type="text/javascript" ></script>
+	<script src="cordova.js" type="text/javascript" ></script>
+	<script src="js/main.js" type="text/javascript" ></script>
+      
+</body>
+</html>
